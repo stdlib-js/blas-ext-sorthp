@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-sorthp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@umd/browser.js' )
+sorthp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.0.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var sorthp = require( 'path/to/vendor/umd/blas-ext-sorthp/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.0.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -193,7 +193,7 @@ v = ndarray2array( y );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.0.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
