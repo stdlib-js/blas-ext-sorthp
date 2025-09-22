@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@deno/mod.js';
+import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.0.0-deno/mod.js';
 ```
 
 #### sorthp( x\[, sortOrder]\[, options] )
@@ -166,7 +166,7 @@ v = ndarray2array( y );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@deno/mod.js';
+import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.0.0-deno/mod.js';
 
 // Generate an array of random numbers:
 var xbuf = discreteUniform( 25, -20, 20, {
