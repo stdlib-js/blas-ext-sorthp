@@ -37,8 +37,6 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-indices-complement": "github:stdlib-js/array-base-indices-complement#main",
-    "@stdlib/array-base-take-indexed": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/assert-is-number": "^0.2.2",
@@ -49,9 +47,9 @@
     "@stdlib/ndarray-base-assert-is-real-floating-point-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-signed-integer-data-type": "^0.2.2",
     "@stdlib/ndarray-base-broadcast-scalar": "^0.2.2",
+    "@stdlib/ndarray-base-complement-shape": "github:stdlib-js/ndarray-base-complement-shape#main",
     "@stdlib/ndarray-base-maybe-broadcast-array": "^0.2.3",
     "@stdlib/ndarray-base-nullary-strided1d-dispatch-factory": "github:stdlib-js/ndarray-base-nullary-strided1d-dispatch-factory#main",
-    "@stdlib/ndarray-base-to-unique-normalized-indices": "github:stdlib-js/ndarray-base-to-unique-normalized-indices#main",
     "@stdlib/ndarray-dtype": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "@stdlib/ndarray-order": "^0.2.2",
