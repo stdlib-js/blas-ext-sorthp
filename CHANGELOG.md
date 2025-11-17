@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-15)
+## Unreleased (2025-11-17)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`404b4d6`](https://github.com/stdlib-js/stdlib/commit/404b4d6daae129b3889d1ce609285c0ebe8f5715) - remove extra dtype array
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`404b4d6`](https://github.com/stdlib-js/stdlib/commit/404b4d6daae129b3889d1ce609285c0ebe8f5715) - **fix:** remove extra dtype array _(by Athan Reines)_
 -   [`c11a2ae`](https://github.com/stdlib-js/stdlib/commit/c11a2ae201d2451bc94a4be71da344bc06576120) - **refactor:** use base utility _(by Athan Reines)_
 -   [`9402798`](https://github.com/stdlib-js/stdlib/commit/9402798c7ffef6221973cfdfee262f831a0c2f28) - **docs:** remove incorrect comment _(by Athan Reines)_
 -   [`e543b93`](https://github.com/stdlib-js/stdlib/commit/e543b934946086e56d0bedcb0b54df4e87e1a090) - **test:** fix descriptions _(by Athan Reines)_
