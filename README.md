@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-sorthp/tags). For example,
+
+```javascript
 import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.1.0-esm/index.mjs';
 ```
 
@@ -171,7 +176,7 @@ v = ndarray2array( y );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@v0.1.0-esm/index.mjs';
+import sorthp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sorthp@esm/index.mjs';
 
 // Generate an array of random numbers:
 var xbuf = discreteUniform( 25, -20, 20, {
