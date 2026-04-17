@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-11)
+## Unreleased (2026-04-17)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b434fcc`](https://github.com/stdlib-js/stdlib/commit/b434fcc0eee2e5a6930b5c99a0fe8515dcff2fae) - **docs:** improve doctests for ndarray instances in `blas/ext/sorthp` [(#11483)](https://github.com/stdlib-js/stdlib/pull/11483) _(by Uday Kakade)_
 -   [`117fa4e`](https://github.com/stdlib-js/stdlib/commit/117fa4e7727d7c1d2a13fa34d2b67fbbb0b8f1b4) - **bench:** refactor to use string interpolation in blas/ext/sorthp [(#10828)](https://github.com/stdlib-js/stdlib/pull/10828) _(by Kamal Singh Rautela)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Kamal Singh Rautela
+-   Uday Kakade
 
 </section>
 
